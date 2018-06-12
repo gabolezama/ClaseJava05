@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="476.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="javafxapplication.FormularioController">
+   <children>
+      <Pane id="btnD" layoutX="86.0" layoutY="65.0" prefHeight="248.0" prefWidth="304.0">
+         <children>
+            <TextField id="nombre" fx:id="txtNombre" layoutX="152.0" layoutY="23.0" promptText="Nombre" />
+            <TextField id="nombre" fx:id="txtApellido" layoutX="152.0" layoutY="70.0" promptText="Apellido" />
+            <TextField id="dni" fx:id="txtDNI" layoutX="152.0" layoutY="113.0" promptText="DNI" />
+            <Button id="btnI" fx:id="btnI" layoutX="70.0" layoutY="168.0" mnemonicParsing="false" onAction="#BtnIfuncioin" text="ButtonI" />
+            <Button id="btnD" fx:id="btnD" layoutX="194.0" layoutY="168.0" mnemonicParsing="false" onAction="#BtnDfuncion" text="ButtonD" />
+            <Label layoutX="74.0" layoutY="27.0" text="NOMBRE" />
+            <Label layoutX="76.0" layoutY="74.0" text="APELLIDO" />
+            <Label layoutX="85.0" layoutY="117.0" text="DNI" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
